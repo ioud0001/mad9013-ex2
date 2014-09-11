@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+html > mark
+{
+	background-color: #719e07;
+}
+body
+{
+	background-color: #fdf6e3;
+}
+header, footer
+{
+	font-size: 2em;
+}
+
+nav ul
+{
+	font-family: sans-serif;
+}
+
+#logo
+{
+	border: 2px solid #d04b16;
+}
+
+#contents, #favs, #facts, #types
+{
+	 color: #93a1a1;
+}
+
+nav > p a:link
+{
+	background-color: blue;
+}
+
+.wrapper
+{
+	background-color: #eee8d5;
+}
+
+.wrapper > .dfn
+{
+	background-color: #b58900;
+}
+
+.dfn > strong
+{
+	color: #fff;
+}
+
+a[rel="external"]
+{
+	background-color: #2694d8;
+}
+
+ol li:first-child
+{
+	 color: #719e47;
+
+}
+ol li:last-child
+{
+	color: #2aa198;
+}
+
+/*
+Select every odd li inside .types—set background-color: #657ba3;
+Select every even li inside .types—set background-color: #586e75;
+Select every 3rd li inside .types—set background-color: #d04b16;
+*/
+ul.types li:nth-child(odd)
+{
+	background-color: #657ba3;
+}
+
+ul.types li:nth-child(even)
+{
+	background-color: #586e75;
+}
